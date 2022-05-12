@@ -4,7 +4,7 @@ Ini adalah repository contoh sederhana pembuatan CRUD dengan menggunakan bahasa 
 
 Panduan Penggunaan
 Clone atau download repository ini. Jika kamu ingin meng-download kamu bisa klik tombol kode warna hijau kemudian klik download zip atau jika ingin meng-clone bisa jalankan perintah ini.
-git clone https://github.com/raihan-muhammad/simple-crud-php.git
+git clone https://github.com/yogigaek/backend-express-mysql.git
 Buka phpmyadmin, buat database baru dengan nama eduwork-cruds untuk mysql dan eduwork-cruds-v2 untuk squelize.
 
 
