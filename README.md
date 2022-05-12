@@ -20,7 +20,7 @@ Results: https://prnt.sc/HicCcV0PSkDO
 
 URL :"/api/v1/product/1",
 
-Method:"GET data by id",
+Method:"GET",
 
 Results: https://prnt.sc/A7FJ-Sh63yBy
 
@@ -40,7 +40,7 @@ Results: https://prnt.sc/inRSjW73_Ute
 
 URL : "/api/v2/product/3",
 
-Method: "GET data By id",
+Method: "GET",
 
 Results: https://prnt.sc/m5QbA8oKNDIP
 
