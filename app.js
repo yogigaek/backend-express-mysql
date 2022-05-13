@@ -3,7 +3,9 @@ const app = express();
 const path = require(`path`);
 const productRouterV1 = require(`./productV1/router`);
 const productRouterV2 = require(`./productV2/router`);
+const logger = require(`morgan`);
 
+app.use(logger(`dev`));
 
 // API mysql
 app.use(`/api/v1`, productRouterV1);
