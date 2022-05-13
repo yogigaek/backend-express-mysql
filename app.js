@@ -1,7 +1,6 @@
 const express = require(`express`);
 const app = express();
 const path = require(`path`);
-const port = 3000;
 const productRouterV1 = require(`./productV1/router`);
 const productRouterV2 = require(`./productV2/router`);
 
@@ -18,7 +17,6 @@ app.use(`/`, (req, res) => {
     res.send(`<h1> Page not found </h1>`);
 });
 
+const PORT = process.env.PORT || 4000;
 
-app.listen(port, () => {
-    console.log(`http://localhost:${port}`) 
-});
+app.listen(PORT, () => console.log(`Server is listening on port ${PORT}...`));
